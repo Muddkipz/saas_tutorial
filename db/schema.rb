@@ -12,12 +12,12 @@
 
 ActiveRecord::Schema.define(version: 20181122170718) do
 
-  create_table "contacts", force: :cascade do |t|
+    create_table "contacts", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
     t.text     "comments"
-    t.dateline "created_at", null: false
-    t.dateline "updated_at", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
