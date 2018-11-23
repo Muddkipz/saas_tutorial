@@ -27,6 +27,10 @@ gem 'jbuilder', '2.5.0'
 #use Twitter Bootstrap library for frotn end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
+
+#simple form gem 
+gem 'simple_form'
+
 #Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
